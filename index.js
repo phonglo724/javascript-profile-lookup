@@ -25,14 +25,14 @@ var contacts = [
     }
 ];
 
-console.log(contacts[0]["firstName"])
+console.log(contacts[0]["firstName"]) // "Akira"
 
 function lookUpProfile(name, property){
     for (var i = 0; i < contacts.length; i++){
-        for (var j = 0; j < contacts[i].length; j++){
-            console.log(contacts[i][j]);
+        if (contacts.firstName === name){
+        }
+        console.log(contacts.firstName === name)
         }
     }
-}
 
-// console.log(lookUpProfile("Akira", "likes"));
+console.log(lookUpProfile("Akira", "likes"));
